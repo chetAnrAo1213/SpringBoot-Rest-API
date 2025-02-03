@@ -1,0 +1,7 @@
+QueryHints :
+is an annotation in Spring Data JPA used to provide hints or instructions to the underlying JPA provider (e.g., Hibernate) 
+about how to execute a query. These hints can optimize performance, control caching behavior, and customize query execution.
+Key Points:
+Purpose     :     To pass provider-specific hints to tailor query behavior.Commonly used to tweak caching, locking, or execution strategies.
+Scope       :     Applicable to queries defined using the @Query annotation or named queries.
+Flexibility : Supports provider-specific optimizations. For example, Hibernate supports hints like query timeout or read-only hints.

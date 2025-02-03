@@ -1,0 +1,12 @@
+Auditing in Spring Data JPA is a mechanism that helps automatically capture and persist metadata related to entity changes, such as:
+
+1)Creation Information:
+Automatically records the user or system who created the entity and the timestamp of when it was created.
+
+2)Modification Information:
+Tracks the user or system who last modified the entity and the timestamp of the modification.
+
+Key Uses of Auditing:
+Tracking Entity Lifecycle  :     Helps maintain a record of when an entity was created or modified and by whom.
+Maintaining Historical Data:     Enables better traceability and accountability in applications that need audit trails (e.g., financial systems, regulatory systems).
+Improved Code Efficiency   :     Reduces boilerplate code by automatically handling metadata instead of manually setting creation and update information.
