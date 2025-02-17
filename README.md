@@ -9,7 +9,7 @@ Language: Java
 
 Frameworks: Spring Boot(V 3.4.0)
 
-Dependencies : JPA, DevTools, MySql-Driver
+Dependencies [starter]: JPA, DevTools, MySql-Driver, No-Sql, Elastic Search, Json-Jayway.
 
 Database: MySQL(V 8.0)
 
